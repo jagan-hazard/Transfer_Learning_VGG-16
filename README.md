@@ -33,7 +33,12 @@ This is the program written for classifcation of elephant and non-elephant image
 
 Notes: 
 ----------
-   * For the first time running train.py,it will search for Pre-trained weight file of the VGG-16 (without top layer), if it doesn't find                   it, it will automatically download from internet.
+   * This is made in reference with,
+            https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
+            https://www.codesofinterest.com/2017/08/bottleneck-features-multi-class-classification-keras.html
+            
+   * For the first time running train.py,it will search for Pre-trained weight file of the VGG-16 (without top layer), if it doesn't find it, it will automatically download from internet.
+   
    * Pre-trained file is mandatory to perform any kinf of transfer learning.
    * To classify the Images, we must do trainning followed by classification.
    * My dataset folder (named "data") will look like this.
